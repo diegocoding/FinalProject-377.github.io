@@ -12,7 +12,10 @@ body {
     color: white;
   }
   
-
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
   footer {
     background-color: #777;
     padding: 10px;
