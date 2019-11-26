@@ -4,6 +4,9 @@ Our goal is to address the environmental habits and concerns of the communities 
 
 ## Getting Started
 
+## Installation 
+### Clone
+### Set up
 ## Features
 
 ## Contributing
