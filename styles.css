@@ -1,6 +1,7 @@
 body {
+    margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: darkkhaki;
   }
   
 
@@ -23,4 +24,4 @@ body {
     color: white;
   }
   
-  #mapid { height: 180px; }
+#mapid { height: 180px; }
