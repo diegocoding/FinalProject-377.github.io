@@ -9,3 +9,6 @@ Our goal is to address the environmental habits and concerns of the communities 
 ## Contributing
 
 ## Documentation
+
+## License
+* [MIT license] (https://opensource.org/licenses/mit-license.php)
