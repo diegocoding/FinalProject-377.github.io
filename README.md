@@ -11,4 +11,4 @@ Our goal is to address the environmental habits and concerns of the communities 
 ## Documentation
 
 ## License
-* [MIT license] (https://opensource.org/licenses/mit-license.php)
+* <a href="https://opensource.org/licenses/mit-license.php"> MIT License </a>
