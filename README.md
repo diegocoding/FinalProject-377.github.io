@@ -12,3 +12,4 @@ Our goal is to address the environmental habits and concerns of the communities 
 
 ## License
 * <a href="https://opensource.org/licenses/mit-license.php"> MIT License </a>
+* Copyright 2019 © LeafGreenTeam
