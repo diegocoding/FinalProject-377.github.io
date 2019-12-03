@@ -1,0 +1,24 @@
+{
+  "name": "finalproject-377.github.io",
+  "version": "1.0.0",
+  "description": "Leaf Green Footprints Project enivromental awareness for PGC",
+  "main": "leaflet-src.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinalProject-377/FinalProject-377.github.io.git"
+  },
+  "author": "Lana Dove",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FinalProject-377/FinalProject-377.github.io/issues"
+  },
+  "homepage": "https://github.com/FinalProject-377/FinalProject-377.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7"
+  }
+}

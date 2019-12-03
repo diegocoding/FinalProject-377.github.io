@@ -1,0 +1,14 @@
+[
+    {"name" :"Household Hazardous Waste Acceptance Site",
+     "type" : "household hazardous waste",
+     "address": "11611 White House Road Upper Marlboro, MD 20772",
+     "longitude" : "-76.803620",
+     "latitute" : "38.874580" },
+     
+    {"name" : "Missouri Avenue Solid Waste Acceptance and Recycling Center",
+     "type" : "garbage dump",
+     "address" : "12701 Missouri Ave, Brandywine, MD 20613",
+     "longitude" : "-76.854230",
+     "latitude" : "38.713340"}
+
+]

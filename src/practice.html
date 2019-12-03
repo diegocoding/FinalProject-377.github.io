@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="styles1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Leaf Green Footprints logo image" />
+        <h1>Welcome to Leaf Green Footprints</h1>
+    </div>
+
+    <div class="topnav">
+        <a class="active" href="#home">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="#project">PROJECT</a>
+        <a href="#documentation">DOCUMENTATION</a>
+        <a href="#contact">CONTACT US</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search" />
+                <button type="submit">
+                    <img src="searchicon.png" class="search" />
+                </button>
+            </form>
+        </div>
+    </div>
+    <br />
+
+    <div class="intro">
+        <img src="lake quote.png" class="lake" alt="Picture of Lake Artemesia" />
+        <p> <span>
+                It is important that we come together to make our community a greener
+                and healthier place. By taking responsibility of our environmental
+                habits, we can make the world a better place one step at a time.
+                Environmental awareness and education is key to encouraging conservation
+                and sustainability efforts. We hope we inspire and motivate you to make
+                some changes today and to start taking steps towards a greener future.
+                <br /> <br />
+                <a class="introlink" href="about.html">Learn more about our Vission and Mission </a>
+            </span>
+        </p>
+    </div>
+
+
+    <div class="row">
+        <div class="column">
+            <h2>Raising Litter Awareness</h2>
+            <br />
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="nature3.jpg" class="slideimg" />
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src=" nature.jpg" class="slideimg" />
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="umd campus.jpg" class="slideimg" />
+                </div>
+            </div>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <br />
+            <p>
+                Introduction pararaph to the website and the importance of
+                environmental awareness. Paragraph addresses importance of liter and
+                recycle awareness and how the communit needs to come together and make
+                more of an effort to help keep the community healtheir and cleaner for
+                its current and future residents.
+            </p>
+        </div>
+        <div class="column">
+            <h2>Column 2</h2>
+            <img src="blue heron.png.jpg" class="heron" alt="Picutre of a Blue Heron at Lake Artemesia" />
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Take Green footpints towards a cleaner future for PGC.</p>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 5000); // Changes the image every 5 seconds
+        }
+    </script>
+</body>
+
+</html>
