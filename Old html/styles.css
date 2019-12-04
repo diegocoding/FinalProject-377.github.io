@@ -1,0 +1,27 @@
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkkhaki;
+  }
+  
+
+  header {
+    background-color: greenyellow;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+#mapid { height: 180px; }
